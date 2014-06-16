@@ -13,7 +13,7 @@ class Ircmad
     end
 
     def host
-      '127.0.0.1'
+      '0.0.0.0'
     end
 
     # http://qiita.com/items/bf47e254d662af1294d8#
