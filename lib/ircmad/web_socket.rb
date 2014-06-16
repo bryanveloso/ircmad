@@ -27,7 +27,7 @@ class Ircmad
     end
 
     def run!
-      puts "Stating WebSocket server on #{host}:#{port}"
+      puts "Starting WebSocket server on #{host}:#{port}"
 
       Ircmad.get_channel.subscribe do |msg|
         buffer << msg
