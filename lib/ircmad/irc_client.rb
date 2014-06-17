@@ -64,6 +64,9 @@ class Ircmad
             client.names m[:to]
           when 'join'
             client.join m[:to] if m[:to]
+          when 'twitchclient'
+            # { type: 'twitchclient', to: '3' }
+            client.twitchclient m[:to]
           end
         end
       }
